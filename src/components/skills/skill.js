@@ -7,23 +7,21 @@ function Skill() {
   return (
    
       <section id="skills">
-    <span className="skillTitle">Skills</span>skilltitle
-    <skill className="skilldoes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae facilis excepturi distinctio nisi dolore, reprehenderit possimus dicta perferendis quibusdam accusantium? Neque molestias voluptate vel. Aperiam possimus dolor fugiat numquam rerum!</skill>
+    <span className="skillTitle">Skills</span>
+    <span className="skilldoes">Unlocking Possibilities: A Showcase of Proficiencies that Transform Challenges into Triumphs</span>
     <div className="skillbars">
         <div className="skillbar">
             <img src={UIDesign} alt=""  className="skillbarImg" />
             <div className="skillBarText">
-                <h2>HTML Css Js</h2>
-                <p>Some experience in frontend skills with some small projects like Tic-Toc-Toe</p>
-            </div>
-         
-           
+                <h2>Frontend</h2>
+                <p>Explore my skills  I'm good at designing websites and making them work smoothly. I use HTML and CSS to create the look, add interactivity with JavaScript, and make things dynamic with tools like React and Vue.js. </p>
+        </div>
         </div>
         <div className="skillbar">
             <img src={WebDesign} alt=""  className="skillbarImg" />
             <div className="skillBarText">
                 <h2>MERN stack</h2>
-                <p>Some knowledge about mongoDB,express,React jS as frontend library and node js  </p>
+                <p>I specialize in backend development using Python and Node.js. From managing databases to crafting secure APIs, I'm the architect behind smooth digital experiences. Let's navigate servers and databases together</p>
             </div>
          
            
@@ -32,15 +30,16 @@ function Skill() {
             <img src={AppDesign} alt=""  className="skillbarImg" />
             <div className="skillBarText">
                 <h2>Tools familiar with</h2>
-                <p> Git,Github,Postman and VsCode kzjxkan nxsnck kcnskcnx cnaskcnana </p>
+                <p> 
+Efficiently coding with Visual Studio Code, testing APIs seamlessly with Postman, scripting robust backend logic with Node.js, managing NoSQL databases expertly with MongoDB, and ensuring collaborative development with Git and GitHub. </p>
                
             </div>
          
            
         </div>
      
-  </div>
- 
+      
+ </div>
    
       </section>
    

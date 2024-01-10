@@ -46,17 +46,17 @@ function Contact() {
           <div className="links">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">   <img src={FacebookIcon} alt="Facebook" className="link" /></a>
        
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/deepak_pati2026" target="_blank" rel="noopener noreferrer">
             <img src={TwitterIcon} alt="Twitter" className="link" /> </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@Deepak-gk3dq" target="_blank" rel="noopener noreferrer">
             <img src={YoutubeIcon} alt="YouTube" className="link" />
-      </a>
-      <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-      <img src={InstagramIcon} alt="Instagram" className="link" />
-      </a>
-      <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-      <img src={WhatsappIcon} alt="whatsapp" className="link" />
-      </a>
+            </a>
+            <a href="https://www.instagram.com/deepak_.patidar_?igsh=MW9veXFobmxtdjloZA==" target="_blank" rel="noopener noreferrer">
+            <img src={InstagramIcon} alt="Instagram" className="link" />
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=9713402267" target="_blank" rel="noopener noreferrer">
+            <img src={WhatsappIcon} alt="whatsapp" className="link" />
+            </a>
     
            
          

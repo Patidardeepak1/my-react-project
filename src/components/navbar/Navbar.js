@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './navbar.css'
-import logo from '../../assets/logo-modified.png'
+import logo from '../../assets/logo.png'
 import {Link} from  "react-scroll"
 import contacting from "../../assets/contact.png"
 import menu from "../../assets/menu.png"
@@ -13,9 +13,9 @@ function Navbar() {
       <div className="desktopmenu">
   <Link activeClass='active' to="intro" spy={true} smooth={true} offset={-100} duration={500} className="desktopmenuListItem">Home</Link>
   <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-50} duration={500} className="desktopmenuListItem">Skills</Link>
-     <Link  activeClass='active' to="works" spy={true} smooth={true} offset={-80} duration={500} className="desktopmenuListItem">Projects</Link>
+     <Link  activeClass='active' to="works" spy={true} smooth={true} offset={-60} duration={500} className="desktopmenuListItem">Projects</Link>
 
-<Link activeClass='active' to="contact" spy={true} smooth={true} offset={-100} duration={500} className="desktopmenuListItem">Contact</Link>
+<Link activeClass='active' to="contact" spy={true} smooth={true} offset={-60} duration={500} className="desktopmenuListItem">Contact</Link>
       </div>
       <button className="desktopmenuBtn" onClick={()=>document.getElementById('contact').scrollIntoView({behavior:'smooth'})}>
         <img src={contacting} alt="" className="desktopmenuImg"/>

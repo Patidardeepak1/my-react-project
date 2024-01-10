@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import bg from '../../assets/IMG_20221213_141452_718-modified.png'
+// import bg from '../../assets/IMG_20221213_141452_718-modified.png'
 import {Link} from  "react-scroll"
 import btnImg from '../../assets/hireme.png'
 function Intro() {
@@ -12,7 +12,7 @@ function Intro() {
 <p className="introPara">I am a skilled web designer with experience in creating <br/> Visulas appealing and user friendly websites.</p>
 <Link ><button className="btn"><img src={btnImg} className="btnImg" alt="Hire me"/>Hire Me</button></Link>
         </div> 
-        <img src={bg} alt="profile" className="bg"/>
+        {/* <img src={bg} alt="profile" className="bg"/> */}
     </section>
   )
 }
